@@ -5,7 +5,9 @@
     font-family: 'Heebo', sans-serif;
 }
 @media (min-width:320px) {
-    
+
+legend.tituloform{
+    margin-left: 7rem;}
 
 body{
     margin: 0;
@@ -163,10 +165,7 @@ main p{
     width: 100%;
     text-align: center;
 }
-.tituloform{
-    text-align: center;
-    margin-left: 7rem;
-}
+
 
 
 /* MAIN IMAGEN */ 
@@ -346,9 +345,9 @@ body{
     width: 100%;
     text-align: center;
 }
-.tituloform{
-    text-align: center;
+legend.tituloform{
     margin-left: 15rem;
+    text-align: center;
     font-weight: 900;
     font-size: xx-large;
 }
@@ -479,10 +478,9 @@ body{
     width: 100%;
     text-align: center;
 }
-.tituloform{
-    
+legend.tituloform{
+    margin-left: 13rem;
     text-align: center;
-    margin-left: 12.5rem;
     font-weight: 900;
     font-size: xx-large;
     padding-bottom: 1rem;
