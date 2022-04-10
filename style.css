@@ -6,9 +6,6 @@
 }
 @media (min-width:320px) {
 
-legend.tituloform{
-    margin-left: 7rem;}
-
 body{
     margin: 0;
     background-image: url(IMAGENES/fondonos.png);
@@ -346,7 +343,6 @@ body{
     text-align: center;
 }
 legend.tituloform{
-    margin-left: 15rem;
     text-align: center;
     font-weight: 900;
     font-size: xx-large;
@@ -479,7 +475,7 @@ legend.tituloform{
     text-align: center;
 }
 legend.tituloform{
-    margin-left: 13rem;
+    
     text-align: center;
     font-weight: 900;
     font-size: xx-large;
