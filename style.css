@@ -470,10 +470,14 @@ legend.tituloform{
     
 }
 .CONTACTO{
-    border:3px dashed #e1aa43;
+    border:5px dashed #e1aa43;
     width: 100%;
     text-align: center;
 }
+.tituloform input{
+    vertical-align: middle;
+}
+
 legend.tituloform{
     
     text-align: center;
@@ -485,6 +489,11 @@ legend.tituloform{
 
 
 
+}
+
+
+
+
 
 
 
@@ -494,4 +503,3 @@ legend.tituloform{
 
 
     
-}
