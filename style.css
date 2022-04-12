@@ -93,6 +93,7 @@ main{
     }
 /* MAIN TEXTO */
 main h1{
+   
     padding:0 0 0.5rem 0 ;}
 
 main p{
@@ -172,6 +173,7 @@ hr{
 
 }   
 .img_descarga{
+    
     padding: 2rem 2rem;
 }
 .img_descarga img{
@@ -185,7 +187,7 @@ hr{
 .MAIN_NOSOTROS img{
     margin: 1rem 0rem;
     width: 15rem;
-    border:2px double #e1aa43 ;   
+    border:2px double #e1aa43 ;  
 }
 .APP_IMG{
     padding-top: 0.5rem;
@@ -195,11 +197,10 @@ hr{
 
 .BTN_DESCARGA{  
    font-weight: 800;
-   color: black;
-   background: NONE;
+   color: rgb(253, 253, 253);
    border: none;
    outline-style: none;
-   background-color: #e1aa43;
+   background: linear-gradient(to right, #025959,#038C65);
    border-radius: 20px;
    padding: 0.5rem 2rem;}
 
@@ -217,7 +218,7 @@ hr{
 .footer{
     color: white;
     text-align: center; 
-    background-color: #9c7937;
+    background-image: linear-gradient(to right, #1f2020, #0f0f0f);
     grid-area: footer;
 }
 /* ICONOS FOOTER */
@@ -258,11 +259,12 @@ body{
     "footer footer"; }   
 
 .header{ 
+    
     top: 0;
     position: sticky;
     padding: 1rem 1rem;
     color: white;
-    background-color: black;
+    background-image: linear-gradient(to right, #1f2020, #000000);
     grid-area: header;
     display: flex;
     justify-content: center;
@@ -328,6 +330,7 @@ body{
     padding: 0.5REM 5REM;
 }
 .MAIN{
+    
     grid-area: main;
 }
 .MAIN_FORM{
@@ -356,6 +359,7 @@ legend.tituloform{
 
 
 .header{ 
+    box-shadow: 0 0.1rem 1rem rgb(54, 54, 54);
     top: 0;
     position: sticky;
     color: white;
@@ -386,11 +390,17 @@ legend.tituloform{
 
 
 .main h1{
+    background-image: linear-gradient(to right,#ffba08, #f48c06);
+    color: transparent;
+    -webkit-background-clip: text;
     font-size: 5rem;
     padding: 1rem 2rem;
     font-weight: 900;
 }
 .main p{
+    background-image: linear-gradient(to right,#ffba08, #f48c06);
+    color: transparent;
+    -webkit-background-clip: text;
     font-size: 2rem;
     padding: 1rem 2rem 2rem 2rem;
     font-weight: 600;
@@ -481,7 +491,6 @@ legend.tituloform{
     font-size: xx-large;
     padding-bottom: 1rem;
 }
-
 
 
 
