@@ -25,6 +25,8 @@ body{
 
 }
 
+
+
 /* imagen de header */
 .HERO_IMG{
     align-items: center;
@@ -182,7 +184,9 @@ hr{
     border: 2px dashed white; 
     margin-bottom: 0.5rem;
     border-radius: 50rem;
-    padding: 1.5rem 0;}
+    padding: 1.5rem 0;
+    }
+
 
 .MAIN_NOSOTROS img{
     margin: 1rem 0rem;
@@ -413,13 +417,20 @@ legend.tituloform{
     border-radius: 20rem;
 }
 .BTN_DESCARGA{
+    transition: width 2s;
     padding:3REM 2REM,;
     width: 30REM;
+}
+.BTN_DESCARGA:hover{
+    width: 60%;
+    transition: width 2s;
+    
 }
 .BOTONASO{
     padding-top: 1REM;
     padding-bottom: 1REM;
 }
+
 .videoyt iframe{
     width: 25rem;
     height: 15rem;
@@ -505,6 +516,15 @@ width: 60% ;
         width: 60% ;
          transition: width 2s;
         }
+.img_descarga img{
+    width: 30% ;
+         transition: width 2s;
+}
+.img_descarga img:hover{
+    width: 35%;
+    transition: width 2s;
+
+}
 
 }
 
