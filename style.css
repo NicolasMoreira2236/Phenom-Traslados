@@ -187,7 +187,8 @@ hr{
 .MAIN_NOSOTROS img{
     margin: 1rem 0rem;
     width: 15rem;
-    border:2px double #e1aa43 ;  
+    border:2px double #e1aa43 ; 
+    transition: width 1s; 
 }
 .APP_IMG{
     padding-top: 0.5rem;
@@ -492,7 +493,18 @@ legend.tituloform{
     padding-bottom: 1rem;
 }
 
-
+.LUJO_IMG img:hover{
+width: 60% ;
+ transition: width 2s;
+}
+.FACHA_IMG img:hover{
+    width: 60% ;
+     transition: width 2s;
+    }
+.APP_IMG img:hover{
+        width: 60% ;
+         transition: width 2s;
+        }
 
 }
 
