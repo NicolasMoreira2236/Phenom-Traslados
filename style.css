@@ -526,11 +526,43 @@ width: 60% ;
 
 }
 
+@keyframes from-right {
+    0%{
+       opacity: 0;
+       transform: translateX(150px); 
+    }
+    100%{
+        opacity: 1;
+        transform: translateX(0px);
+}
+}
+.VIAJES_MEDICOS img{
+    animation: from-right 1.5s ease;
+}
+.VIAJES_MEDICOS{
+    animation: from-right 1.5s ease;
+}
+@keyframes from-left {
+    0%{
+       opacity: 0;
+       transform: translateX(-150px); 
+    }
+    100%{
+        opacity: 1;
+        transform: translateX(0px);
+}
+}
+.HERO_IMG img{
+    animation: from-left 1.5s ease;
+}
+.TITULO_HEADER p{
+    animation: from-left 1.5s ease;
 }
 
 
 
 
+}
 
 
 
